@@ -1,6 +1,6 @@
 [core]
         # For Windows only:
-        autocrlf = input
+        # autocrlf = input
 [alias]
         # Show status
         s = status
@@ -52,4 +52,4 @@
 [color]
         ui = auto
 [core]
-autocrlf = true
+autocrlf = false
