@@ -14,3 +14,5 @@ colorscheme zellner
 " Shortcut for building C++ files like an IDE
 command Make execute "silent! make | redraw! | copen"
 
+" Add binding to press JK instead of ESC
+inoremap <special> jk <ESC>
