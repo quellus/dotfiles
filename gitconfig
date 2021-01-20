@@ -1,6 +1,9 @@
 [core]
         # For Windows only:
         # autocrlf = input
+
+        # For Linux only:
+        autocrlf = false
 [alias]
         # Show status
         s = status
@@ -51,5 +54,4 @@
         lu = ls-files --others --exclude-standard
 [color]
         ui = auto
-[core]
-autocrlf = false
+
