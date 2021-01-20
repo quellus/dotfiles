@@ -30,11 +30,15 @@ Configs for the neovim text editor.
 
 Adds pretty colors to the command line.
 
+Please don't overwrite your existing bashrc. It might break things. Add it to your existing file which should be in `~/.bashrc`
+
 Requires neofetch
 
 ## gitconfig
 
 Adds aliases to make your workflow really fast.
+
+Should be located at `~/.gitconfig`
 
 If on Windows, you may want to change the autocrlf config.
 
@@ -53,4 +57,6 @@ If on Windows, you may want to change the autocrlf config.
 #### vimrc
 
 A really basic config for vim. I mostly use nvim and don't pay much attention to it.
+
+Should be located at `~/.vimrc`
 
