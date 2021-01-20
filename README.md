@@ -45,13 +45,13 @@ If on Windows, you may want to change the autocrlf config.
 #### My usual workflow
 
 ```
-  git b # check current branch
-  git cb <branch> # make new branch
-  git s # list files changed
-  git dc # view file changes
-  git add . # stage all changed files
+  git b             # check current branch
+  git cb <branch>   # make new branch
+  git s             # list files changed
+  git dc            # view file changes
+  git add .         # stage all changed files
   git cmm <message> # commit files
-  git poh # push commit to the origin
+  git poh           # push commit to the origin
 ```
 
 #### vimrc
