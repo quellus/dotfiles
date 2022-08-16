@@ -30,9 +30,9 @@ Configs for the neovim text editor.
 
 Adds pretty colors to the command line.
 
-Please don't overwrite your existing bashrc. It might break things. Add it to your existing file which should be in `~/.bashrc`
+Please don't overwrite your existing bashrc. It might break things. Append the contents of the bashrc file to your existing file which should be in `~/.bashrc`
 
-Requires neofetch
+Requires neofetch and optionally [git-prompt.sh](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh)
 
 ## gitconfig
 
