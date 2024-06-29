@@ -1,6 +1,3 @@
-# This displays information about your system everytime you open a terminal
-neofetch
-
 # This sets nice colors in the terminal and shows git branch if git-prompt script is present.
 source ~/.git-prompt.sh 2> /dev/null
 if [ $? == 0 ];
