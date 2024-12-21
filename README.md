@@ -1,26 +1,27 @@
 # dotfiles
 
-Config files I use that either make Linux look pretty, or add useful shortcuts.
+Config files I use to either make Linux look pretty, or add useful shortcuts.
 
 ## Config
 
 The file in the `config` directory belong in you `~/.config` directory
 
-#### awesome
+### awesome
+
+The `awesome` directory contains configs for the [Awesome Window Manager](https://awesomewm.org/)
 
 Should be located in `~/.config/awesome`
 
-These are configs for the [Awesome Window Manager](https://awesomewm.org/)
 
-##### Requirements
+#### Requirements
 
-To make this config work out of the box, there is some software you wil need. These can be reconfigured if you have different preferences
+To make this config work out of the box, there is some software you will need. These can be reconfigured if you have different preferences
 
 * gnome-terminal
 * slock (to lock the screen)
-* xbacklight (to change brightness if a laptop screen)
+* xbacklight (to change screen brightness for laptops)
 
-#### nvim
+### nvim
 
 Should be located in `~/.config/nvim`
 
@@ -32,17 +33,21 @@ Adds pretty colors to the command line.
 
 Please don't overwrite your existing bashrc. It might break things. Append the contents of the bashrc file to your existing file which should be in `~/.bashrc`
 
-Optionally requires [git-prompt.sh](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh)
+The terminal will also display branch name in a git repository if [git-prompt.sh](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh) is present in ` ~/.git-prompt.sh`
 
 ## gitconfig
 
 Adds aliases to make your workflow really fast.
 
-Should be located at `~/.gitconfig`
+### File location
+#### Linux
+`~/.gitconfig`
 
-If on Windows, you may want to change the autocrlf config.
+#### Windows
+`C:/Users/<user>/.gitconfig`
+Certain situations on Windows may require changing the autocrlf config.
 
-#### My usual workflow
+### My usual workflow
 
 ```
   git b             # check current branch
@@ -54,9 +59,8 @@ If on Windows, you may want to change the autocrlf config.
   git poh           # push commit to the origin
 ```
 
-#### vimrc
+## vimrc
 
-A really basic config for vim. I mostly use nvim and don't pay much attention to it.
+Basic quality of life config for the vim text editor.
 
-Should be located at `~/.vimrc`
-
+Should be located in `~/.vimrc`
