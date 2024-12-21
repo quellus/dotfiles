@@ -1,8 +1,5 @@
 [core]
-        # For Windows only:
-        # autocrlf = input
-
-        # For Linux only:
+        # Forces line endings to Unix. May need to be changed for certain situations on Windows.
         autocrlf = false
 [alias]
         # Show status
