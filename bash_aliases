@@ -1,0 +1,2 @@
+alias compose='docker compose'
+
