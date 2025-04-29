@@ -59,6 +59,11 @@ Certain situations on Windows may require changing the autocrlf config.
   git poh           # push commit to the origin
 ```
 
+## tmux.conf
+Adds the ability to navigate the history with vim binds
+
+Located in `~/.tmux.conf`
+
 ## vimrc
 
 Basic quality of life config for the vim text editor.
